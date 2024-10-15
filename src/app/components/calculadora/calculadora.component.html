@@ -1,0 +1,56 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <input type="text" value="{{operacion}}">
+        </div>
+    <div class="row">
+        <div class="col-md-3">
+            <button (click)="addNum(0)">0</button>
+        </div>
+        <div class="col-md-3">
+            <button (click)="addNum(1)">1</button>
+        </div>
+        <div class="col-md-3">
+            <button (click)="addNum(2)">2</button>
+        </div>
+        <div class="col-md-3">
+            <button (click)="clean()">AC</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <button (click)="addNum(3)">3</button>
+        </div>
+        <div class="col-md-3">
+            <button (click)="addNum(4)">4</button>
+        </div>
+        <div class="col-md-3">
+            <button (click)="addNum(5)">5</button>
+        </div>
+        <div class="col-md-3">
+            <button>+</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <button (click)="addNum(6)">6</button>
+        </div>
+        <div class="col-md-3">
+            <button (click)="addNum(7)">7</button>
+        </div>
+        <div class="col-md-3">
+            <button (click)="addNum(8)">8</button>
+        </div>
+        <div class="col-md-3">
+            <button>-</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <button (click)="addNum(9)">9</button>
+        </div>
+        <div class="col-md-3">
+            <button>=</button>
+        </div>
+</div>
